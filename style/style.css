@@ -1,71 +1,292 @@
-*{
+* {
 
     margin: 0%;
     padding: 0%;
 
+    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
-    
-  
-    
+
+
+
 }
-.container1{
+
+.container1 {
     margin-top: 10px;
-    box-shadow: -5px 5px 20px rgb(3, 242, 250);
-   
+    box-shadow: -5px 5px 20px rgb(163, 241, 147);
+
+
     justify-content: center;
-    
+
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 10px;
-    
+
     width: 99%;
     height: 45px;
 }
-.navbar,a{
-    
+
+.navbar,
+a {
+
     list-style: none;
-   
+
 }
-.anchor{
+
+.anchor {
+    font-weight: 400;
+    color: black;
     text-decoration: none;
     margin-left: 100px;
-   
+
 }
-.logingbutton{
-     
+
+.logingbutton {
+
     margin-top: 10px;
-   
+
 }
 
-.sign,button{
-   margin-left: 40px;
+.sign,
+button {
+    margin-left: 40px;
 }
 
 
-.log,button{
-   margin-left: 70px;
-  
+.log,
+button {
+    margin-left: 70px;
+
 }
-.log{
-  border-radius: 20px;
-  border: none;
-  width: 70px;
+
+.log {
+    border-radius: 20px;
+    border: none;
+    width: 70px;
 }
-.sign{
-  border-radius: 20px;
-  border: none;
-  width: 70px;
-  
+
+.sign {
+    border-radius: 20px;
+    border: none;
+    width: 70px;
+
 }
-.breakfast{
+
+.breakfast {
     margin-left: 100px;
 }
-.head{
+
+.head {
+    font-size: large;
+    font-weight: 600;
+    color: rgb(76, 248, 42);
     margin-top: 100px;
 }
-.breakfast{
+
+.breakfast {
     margin-top: 30px;
 }
-.image{
+
+.image {
     width: 500px;
+}
+
+span {
+    color: rgb(76, 248, 42);
+}
+
+.exploremore {
+    background: rgb(163, 241, 147);
+    padding: 5px;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.exploremore:hover {
+    background-color: rgb(76, 248, 42);
+}
+
+.ourbst {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.imgslider {
+    width: 95%;
+    height: 500px;
+    background-image: url(../assets/nonveg\ plate1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    animation: slider 10s linear infinite;
+}
+
+@keyframes slider {
+
+    0% {
+        background-image: url(../assets/nonveg\ plate1.jpg);
+    }
+
+    25% {
+        background-image: url(../assets/grill\ chicken.jpg );
+    }
+
+    50% {
+        background-image: url(../assets/mtton\ fry.webp);
+    }
+
+    75% {
+        background-image: url(../assets/egg\ curry.webp);
+    }
+
+    100% {
+        background-image: url(../assets/fish\ palte.jpg);
+    }
+
+}*/
+.container4{
+    width: 100%;
+    margin-top: 40px ;
+    
+}
+
+
+
+.nonvegbox {
+    background-color: rgb(0, 255, 140);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+     height: 250px;
+     border-radius: 20px;
+  
+    display: flex;
+}
+
+.nonveg{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+
+.chickenbox {
+    width: 200px;
+    margin-top: 25px;
+    font-style: italic;
+    margin-left: 35px;
+}
+
+.nonvegmore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(76, 248, 42);
+    border: none;
+    margin-top: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+.nonveghead{
+    font-weight: bold;
+    
+}
+
+/* veg css*/
+.vegbox {
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    height: 250px;
+    border-radius: 20px;
+  
+   
+    display: flex;
+}
+
+.veg{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+
+.vegboximg {
+    background: none;
+    width: 200px;
+    margin-top: 45px;
+    font-style: italic;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+
+.vegmore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(76, 248, 42);
+    border: none;
+    margin-top: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+.veghead{
+    font-weight: bold;
+    
+}
+
+
+/* frutis box */
+
+.container5{
+    margin-top: 50px;
+}
+.fruitsbox {
+    background-color: rgb(218, 249, 181);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    height: 250px;
+    border-radius: 20px;
+  
+   
+    display: flex;
+}
+
+.fruits{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+
+.fruitsboximg {
+    background: none;
+    width: 200px;
+    margin-top: 45px;
+    font-style: italic;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.fruitsmore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(76, 248, 42);
+    border: none;
+    margin-top: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+.fruitshead{
+    font-weight: bold;
+    
 }
