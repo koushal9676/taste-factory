@@ -10,11 +10,10 @@
 
 }
 
-.container1 {
+.container1{
     margin-top: 10px;
     box-shadow: -5px 5px 20px rgb(163, 241, 147);
-
-
+   
     justify-content: center;
 
     margin-left: 5px;
@@ -25,14 +24,13 @@
     height: 45px;
 }
 
-.navbar,
-a {
+.navbar,a{
 
     list-style: none;
 
 }
 
-.anchor {
+.anchor{
     font-weight: 400;
     color: black;
     text-decoration: none;
@@ -46,14 +44,12 @@ a {
 
 }
 
-.sign,
-button {
+.sign,button {
     margin-left: 40px;
 }
 
 
-.log,
-button {
+.log,button {
     margin-left: 70px;
 
 }
@@ -70,7 +66,10 @@ button {
     width: 70px;
 
 }
-
+.container2{
+    background-image: url(../assets/—Pngtree—small\ fresh\ fruit\ and\ vegetable_1043386.jpg);
+    background-size: 100% 100%;
+}
 .breakfast {
     margin-left: 100px;
 }
@@ -114,7 +113,44 @@ span {
     margin-top: 20px;
 }
 
-/*.container {
+.container3{
+    margin-top:1px;
+    width: 100%;
+    height: 170px;
+    background: #D7FD4A;
+    
+}
+.companytag{
+    display: flex;
+   
+   
+   
+}
+.spoonimg{
+    width: 130px;
+    margin-left: 100px;
+    margin-top: 30px;
+   
+   
+    border-radius: 40px;
+}
+   
+.companygoal{
+    margin-top: 65px;
+
+
+
+}
+.goal{
+   margin-left: 150px;
+   color: white;
+   font-weight: 500;
+   font-family: "Open Sans", sans-serif;
+    
+}
+
+
+/*.container6{
     width: 100%;
     height: 100vh;
     display: grid;
@@ -155,10 +191,10 @@ span {
     }
 
 }*/
-.container4{
+.container5 {
     width: 100%;
-    margin-top: 40px ;
-    
+    margin-top: 40px;
+
 }
 
 
@@ -166,13 +202,13 @@ span {
 .nonvegbox {
     background-color: rgb(0, 255, 140);
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
-     height: 250px;
-     border-radius: 20px;
-  
+    height: 250px;
+    border-radius: 20px;
+
     display: flex;
 }
 
-.nonveg{
+.nonveg {
     margin-left: 20px;
     margin-top: 50px;
 }
@@ -187,7 +223,7 @@ span {
 }
 
 .nonvegmore {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
     color: rgb(76, 248, 42);
     border: none;
     margin-top: 30px;
@@ -197,9 +233,9 @@ span {
     padding-bottom: 5px;
 }
 
-.nonveghead{
+.nonveghead {
     font-weight: bold;
-    
+
 }
 
 /* veg css*/
@@ -208,12 +244,12 @@ span {
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     height: 250px;
     border-radius: 20px;
-  
-   
+
+
     display: flex;
 }
 
-.veg{
+.veg {
     margin-left: 20px;
     margin-top: 50px;
 }
@@ -230,7 +266,7 @@ span {
 }
 
 .vegmore {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: rgb(76, 248, 42);
     border: none;
     margin-top: 30px;
@@ -239,28 +275,34 @@ span {
     background: rgb(0, 0, 0);
     padding-bottom: 5px;
 }
-.veghead{
+
+.veghead {
     font-weight: bold;
-    
+
 }
 
 
 /* frutis box */
 
-.container5{
+.container6 {
     margin-top: 50px;
+    width: 100%;
+
 }
+
 .fruitsbox {
-    background-color: rgb(218, 249, 181);
+    background-color: rgb(251, 252, 249);
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     height: 250px;
     border-radius: 20px;
-  
-   
+
+    justify-content: center;
+
+
     display: flex;
 }
 
-.fruits{
+.fruits {
     margin-left: 20px;
     margin-top: 50px;
 }
@@ -269,15 +311,15 @@ span {
 
 .fruitsboximg {
     background: none;
-    width: 200px;
-    margin-top: 45px;
+    width: 350px;
+    text-align: center;
     font-style: italic;
-    margin-left: 30px;
+    margin-left: 150px;
     border-radius: 30px;
 }
 
 .fruitsmore {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: rgb(76, 248, 42);
     border: none;
     margin-top: 30px;
@@ -286,7 +328,118 @@ span {
     background: rgb(0, 0, 0);
     padding-bottom: 5px;
 }
-.fruitshead{
+
+.fruitshead {
     font-weight: bold;
-    
+
 }
+
+/* cheffff css
+.container{
+    margin-top: 50px;
+    height: 600px;
+
+}
+
+.cards{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #fcfafa;
+    margin-top: 250px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.cards:hover{
+    height: 300px;
+}
+.cardimg{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-70px);
+
+}
+.masterchef{
+    width: 100%;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.cardinf{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-280px);
+    opacity: 0;
+    transition: 0.3s;
+}
+.cards:hover >.cardinf{
+    opacity: 1;
+    transform: translateY(-150px);
+}
+.rahul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.....
+            <div class="col-4">
+                <div class="cards">
+                    <div class="cardimg">
+                        <img src="../assets/master_chef.jpg" class="masterchef">
+                    </div>
+                    <div class="cardinf">
+                        <h5 class="rahul">Rahul Sharma</h5> 
+                        <p class="rahulinf">Rahul is an best chef in our restaurant 
+                            and specialist in nonveg food
+                        </p>
+                            
+
+                    </div>
+                </div>
+            </div>
+
+
+
+*/
